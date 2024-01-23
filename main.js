@@ -4,21 +4,21 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'images/snack.jpg') {
-    myImage.setAttribute ('src','images/breakfast.jpg');
+  if(mySrc === 'snack.jpg') {
+    myImage.setAttribute ('src','breakfast.jpg');
   }
   else if(mySrc === 'images/breakfast.jpg') {
-      myImage.setAttribute ('src','images/sport.jpg');}
-  else if(mySrc === 'images/sport.jpg') {
-        myImage.setAttribute ('src','images/matcha.jpg');
+      myImage.setAttribute ('src','sport.jpg');}
+  else if(mySrc === 'sport.jpg') {
+        myImage.setAttribute ('src','matcha.jpg');
   }
-  else if(mySrc === 'images/matcha.jpg') {
-    myImage.setAttribute ('src','images/sport2.jpg');
+  else if(mySrc === 'matcha.jpg') {
+    myImage.setAttribute ('src','sport2.jpg');
   }
-  else if(mySrc === 'images/sport2.jpg') {
-    myImage.setAttribute ('src','images/syrnik.jpg');
+  else if(mySrc === 'sport2.jpg') {
+    myImage.setAttribute ('src','syrnik.jpg');
   } else {
-    myImage.setAttribute ('src','images/snack.jpg');
+    myImage.setAttribute ('src','snack.jpg');
   }
 }
 
