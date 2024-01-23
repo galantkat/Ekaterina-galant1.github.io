@@ -1,0 +1,73 @@
+html {
+    font-size: 10px;
+    font-family:  'Instrument Serif', serif;
+  }
+   
+  
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 60px;
+    text-align: center;
+  }
+  span{
+    font-size: 60px;
+    color: #C79667;
+  }
+  
+
+  h3 {
+    font-size: 30px;
+    text-align: left;
+  }
+  
+  p, li {
+    text-indent: 20px; 
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: .5px;
+  }
+  
+  
+  html {
+    background-color: #DFC4A4;
+  }
+  
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #EFDBBB;
+    padding: 0 150px 150px 150px;
+    border: 2px solid #EFDBBB;
+    border-radius: 10px; 
+  }
+
+  
+  h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #C79667;
+    /* text-shadow: 3px 3px 1px brown; */
+  }
+
+  h2 {
+    margin: 0;
+    padding: 20px 0;
+    color: #C79667;
+    /* text-shadow: 3px 3px 1px brown; */
+  }
+
+  h3 {
+    margin: 0;
+    padding: 20px 0;
+    color: #C79667;
+    /* text-shadow: 3px 3px 1px brown; */
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; 
+  }
