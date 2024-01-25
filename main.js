@@ -7,24 +7,34 @@ myImage.onclick = function() {
   if(mySrc === 'snack.jpg') {
     myImage.setAttribute ('src','breakfast.jpg');
   }
-  else if(mySrc === 'images/breakfast.jpg') {
+  else if(mySrc === 'breakfast.jpg') {
       myImage.setAttribute ('src','sport.jpg');}
-  else if(mySrc === 'sport.jpg') {
-        myImage.setAttribute ('src','matcha.jpg');
+  else if(mySrc === 'images/sport.jpg') {
+        myImage.setAttribute ('src','images/matcha.jpg');
   }
   else if(mySrc === 'matcha.jpg') {
     myImage.setAttribute ('src','sport2.jpg');
   }
   else if(mySrc === 'sport2.jpg') {
-    myImage.setAttribute ('src','syrnik.jpg');
-  } else {
     myImage.setAttribute ('src','snack.jpg');
+  } else {
+    // myImage.setAttribute ('src','images/snack.jpg');
   }
 }
 
 alert("Hi, welcome! ");
 
 // Personalized welcome message code
+function goToAnotherPage() {
+  // Change the location to the desired HTML page
+  window.location.href = "wellness.html";
+}
+
+// Personalized welcome message code
+function goBacktoPage() {
+  // Change the location to the desired HTML page
+  window.location.href = "index.html";
+}
 
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
