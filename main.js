@@ -9,8 +9,8 @@ myImage.onclick = function() {
   }
   else if(mySrc === 'breakfast.jpg') {
       myImage.setAttribute ('src','sport.jpg');}
-  else if(mySrc === 'images/sport.jpg') {
-        myImage.setAttribute ('src','images/matcha.jpg');
+  else if(mySrc === 'sport.jpg') {
+        myImage.setAttribute ('src','matcha.jpg');
   }
   else if(mySrc === 'matcha.jpg') {
     myImage.setAttribute ('src','sport2.jpg');
